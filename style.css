@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.startup {
+    height: 100%;
+    background-image: url(thomas-tucker-391058-unsplash.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(255,255,255, .75);
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.btn-primary {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: darkgrey !important;
+    border-color: darkgray !important;
+    color: white !important;
+    box-shadow: none !important;
+}
